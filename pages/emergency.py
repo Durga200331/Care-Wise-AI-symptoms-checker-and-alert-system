@@ -6,7 +6,7 @@ import geocoder
 
 # Initialize Firebase Admin SDK (only once)
 if not firebase_admin._apps:
-    cred = credentials.Certificate("L:\\hackacthon project\\raj\\hackathonaisymptom-firebase-adminsdk-fbsvc-1271146ca1.json")
+    cred = credentials.Certificate("pages/hackathonaisymptom-firebase-adminsdk-fbsvc-1271146ca1.json")
     firebase_admin.initialize_app(cred)
 
 st.title("🚨 Emergency Alert System")
