@@ -6,3 +6,4 @@ protobuf
 Requests
 streamlit
 google-generativeai
+twilio
