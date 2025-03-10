@@ -1,7 +1,7 @@
 firebase-admin
 geocoder
 Pillow
-playsound
+playsound==1.2.2
 protobuf
 Requests
 streamlit
