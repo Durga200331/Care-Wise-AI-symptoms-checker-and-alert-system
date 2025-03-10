@@ -57,7 +57,7 @@ def check_reminders():
                 st.warning(f"🛑 Time to take **{reminder['tablet']}** at {reminder['time']}!")
                 st.balloons()  # Fun visual
                 try:
-                    playsound("alert_sound.wav")  # Replace with your actual sound file path
+                    playsound("./alert_sound.wav")  # Replace with your actual sound file path
                 except Exception as e:
                     st.error(f"Error playing sound: {e}")
                 reminder["triggered"] = True  # Mark the reminder as triggered
