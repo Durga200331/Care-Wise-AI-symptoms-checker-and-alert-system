@@ -37,4 +37,4 @@ Copy
 Edit
 streamlit run app.py
 📞 Contact
-For queries or contributions, reach out at [your email/contact].
+For queries or contributions, reach out at [durga200331@gmail.com/9014070363].
